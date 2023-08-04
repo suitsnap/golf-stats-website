@@ -6,7 +6,6 @@
     "react-router-dom": "^6.14.2"
   },
   "scripts": {
-    "start": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run dev -- --host\"",
-    "build": "npm run build"
+    "start": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run dev\""
   }
 }

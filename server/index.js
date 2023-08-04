@@ -21,6 +21,8 @@ app.use(
   })
 );
 
+app.use(express.static(path.join(__dirname, "../client/dist")));
+
 // Set the Content Security Policy header
 app.use((req, res, next) => {
   res.setHeader("Content-Security-Policy", `default-src 'self' ${PORT}`);
