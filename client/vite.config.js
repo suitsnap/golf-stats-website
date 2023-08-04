@@ -8,5 +8,6 @@ export default defineConfig({
       "/api/v1": "http://localhost:5000/",
     },
   },
+  base:"/golf-stats-website/",
   plugins: [react()],
 });
